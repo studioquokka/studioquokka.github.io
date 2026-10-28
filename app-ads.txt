@@ -1,0 +1,1 @@
+# app-ads.txt for Studio Quokka (Ace in the Void) - empty until ad networks are connected (L-687)

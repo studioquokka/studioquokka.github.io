@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<title>개인정보처리방침 - 에이스 인더 보이드</title>
+<link rel="icon" href="../assets/favicon.png">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="../ko/studio.html">Studio <span>Quokka</span></a><nav class="main"><a href="../ko/index.html">Ace in the Void</a><a href="../ko/press.html">보도 자료</a><a href="../ko/contact.html">문의</a><a class="lang" href="../en/privacy.html" hreflang="en">English</a></nav></div></header>
+<main class="wrap">
+<section class="holo doc">
+<h1>에이스 인더 보이드 개인정보처리방침</h1>
+<p>시행일: 2026-10-28<br>
+적용 대상: 모바일 게임 「에이스 인더 보이드」 Android 앱 (패키지 이름 com.studioquokka.ace) 과 iOS 앱<br>
+개발자: 스튜디오 쿼카 (이하 "개발자")</p>
+<p><strong>요약: 게임 진행 기록은 기본적으로 이용자의 기기에 저장됩니다. 게임 서버 연결, 인앱 결제, 광고를 위해 아래에 적은 최소한의 정보가 개발자와 함께 일하는 회사 (Unity, Google, Apple) 로 전달됩니다. 맞춤 광고와 플레이 분석은 이용자가 고를 수 있고, 언제든 바꿀 수 있습니다.</strong></p>
+<blockquote>이 문서에서 <code>[?] 전문가 확인</code> 이 붙은 문장은 법률 전문가의 확인이 끝나지 않은 초안입니다.</blockquote>
+<h2>1. 수집하는 정보와 목적</h2>
+<p>개발자는 이름, 전화번호, 주소, 정확한 위치, 연락처, 사진을 요청하거나 읽지 않습니다. 회원 가입 없이 무작위 번호로 된 익명 계정을 씁니다.</p>
+<ul>
+<li><strong>게임 계정 (익명)</strong>: 게임을 처음 실행하면 Unity Gaming Services 에 익명으로 로그인하여 무작위 플레이어 번호를 만듭니다. 이때 접속 IP 주소, 기기 정보 (운영체제, 기기 모델, 언어, 앱 버전) 가 전달됩니다. 목적: 서버 시간 확인, 공지 표시, 부정 이용 방지, (기능이 켜지면) 서버 저장ㆍ순위표ㆍ우편함.</li>
+<li><strong>게임 진행 기록</strong>: 기기 안에 암호화하여 저장합니다. 서버 저장 기능을 쓰면 같은 기록이 게임 서버에도 저장됩니다. 목적: 게임 제공, 기기 변경 시 이어 하기.</li>
+<li><strong>결제 정보</strong>: 결제는 Google Play 또는 App Store 가 처리하며, 개발자는 카드 번호 같은 결제 수단 정보를 받지 않습니다. 개발자는 주문 번호, 상품, 구매 시각, 영수증을 받아 구매가 진짜인지 확인하고 상품을 지급하며 환불을 처리합니다.</li>
+<li><strong>광고 정보</strong>: 보상형 광고를 보여 주기 위해 광고 ID (Android 광고 ID, iOS IDFA - 허용한 경우만), IP 주소, 기기 정보, 광고를 보고 누른 기록이 광고 회사로 전달됩니다. 목적: 광고 표시, 광고 보상 지급, 광고 사기 방지, (동의한 경우) 맞춤 광고.</li>
+<li><strong>동의 기록</strong>: 광고ㆍ분석 동의 선택값, 선택 시각, 기기 설정의 나라를 기기 안에 저장합니다. 목적: 이용자의 선택을 지키고 증명하기.</li>
+<li><strong>플레이 분석 (선택)</strong>: 이용자가 설정에서 「플레이 분석」에 동의한 경우에만 게임 안 사건 기록 (스테이지 진행, 메뉴 이용, 게임 번호) 을 보낼 수 있습니다. 동의하지 않으면 보내지 않습니다 (기본값 = 동의 안 함).</li>
+<li><strong>부정 이용 기록</strong>: 순위표 조작, 결제 위조, 세이브 변조, 속도 조작 같은 부정 이용이 감지되면 그 사건과 시각을 게임 서버에 기록합니다. 목적: 공정한 게임 운영.</li>
+<li><strong>문의 이메일</strong>: 이용자가 [고객 문의] 로 이메일을 보내면 이메일 주소, 문의 내용, 제목에 들어간 게임 번호를 받습니다. 목적: 답변.</li>
+<li><strong>기기 안에만 저장되는 정보</strong>: 게임 설정 (소리, 조작 감도 등), 기기 안 플레이 로그 (최대 512KB, 넘치면 자동 삭제). 알림은 기기 안에서 예약하는 알림만 쓰며 푸시 토큰을 만들지 않습니다.</li>
+</ul>
+<p>세이브 파일을 다른 기기에서 열 수 없도록 기기의 식별 값을 <strong>기기 안에서만</strong> 암호 키를 만드는 데 사용합니다. 이 값은 저장하거나 보내지 않습니다.</p>
+<h2>2. 처리 근거 (유럽 경제 지역ㆍ영국)</h2>
+<p><code>[?] 전문가 확인</code> - 게임 제공ㆍ결제ㆍ익명 계정 = 계약 이행, 부정 이용 방지ㆍ보안ㆍ광고 사기 방지 = 정당한 이익, 맞춤 광고ㆍ플레이 분석 = 동의, 결제 기록 보관 = 법적 의무.</p>
+<h2>3. 제3자 제공, 처리 위탁, 국외 이전</h2>
+<p>개발자는 개인정보를 팔지 않습니다. 게임을 운영하기 위해 아래 회사에 정보를 맡기거나 전달합니다. 이 회사들의 서버는 대한민국 밖 (주로 미국) 에 있으며, 정보는 앱을 쓰는 동안 인터넷으로 암호화되어 전송됩니다.</p>
+<ul>
+<li><strong>Unity Technologies Inc. (미국)</strong> - Unity Gaming Services (익명 로그인, 게임 서버, 서버 저장, 원격 설정): 게임 번호, 플레이어 번호, IP 주소, 기기 정보, 게임 진행 기록, 부정 이용 기록. 보관: 아래 6절.</li>
+<li><strong>Google LLC (미국)</strong> - Google Play 결제, Google 사용자 메시지 플랫폼 (UMP, 광고 동의 창), Google Mobile Ads SDK: 주문 정보, 광고 ID, IP 주소, 기기 정보, 동의 선택값.</li>
+<li><strong>Apple Inc. (미국)</strong> - App Store 결제, 앱 추적 투명성 (ATT) 허용 여부: 주문 정보, 허용 여부.</li>
+<li><strong>광고 회사</strong>: 4절 목록.</li>
+</ul>
+<p>이용자는 국외 이전을 거부할 수 있으나, 이 경우 게임 서버ㆍ결제ㆍ광고 기능을 쓸 수 없습니다 (맞춤 광고만 거부하려면 5절). 유럽 경제 지역ㆍ영국에서 옮기는 정보는 유럽 집행위원회 표준 계약 조항 같은 적법한 이전 수단을 따릅니다 <code>[?] 전문가 확인</code>.</p>
+<h2>4. 광고 파트너</h2>
+<ul>
+<li>Unity LevelPlay (ironSource Mobile Ltd. - Unity 계열사): 광고 중개 (미디에이션)</li>
+<li>Unity Ads (Unity Technologies Inc.): LevelPlay 기본 광고 네트워크</li>
+<li>Google AdMob 및 UMP (Google LLC): 광고 동의 창</li>
+</ul>
+<p>광고 중개에 다른 광고 네트워크를 추가하면, 추가하기 <strong>전에</strong> 이 목록을 먼저 고칩니다.</p>
+<h2>5. 이용자의 선택과 권리</h2>
+<ul>
+<li><strong>맞춤 광고ㆍ판매ㆍ공유 거부ㆍ플레이 분석</strong>: 게임 안 [기타 → 설정 → 소리ㆍ알림 → 개인정보 선택] 에서 언제든 켜고 끌 수 있습니다. 유럽 경제 지역ㆍ영국ㆍ스위스에서는 동의하기 전까지 맞춤 광고를 보여 주지 않습니다.</li>
+<li><strong>광고 ID</strong>: Android 는 기기 설정 [개인정보 보호 → 광고] 에서 광고 ID 를 재설정하거나 삭제할 수 있습니다. iOS 는 [설정 → 개인정보 보호 및 보안 → 추적] 에서 추적 허용을 끌 수 있습니다.</li>
+<li><strong>열람ㆍ정정ㆍ삭제ㆍ처리 정지ㆍ동의 철회</strong>: 아래 연락처로 요청하면 지체 없이 처리합니다. 본인 확인을 위해 게임 안 [기타] 에 보이는 게임 번호를 함께 보내 주세요.</li>
+<li><strong>유럽 경제 지역ㆍ영국 이용자</strong>: 위 권리에 더해 개인정보 이동 (기계가 읽을 수 있는 형식으로 받기), 처리에 대한 이의 제기, 거주하는 나라의 개인정보 감독 기관에 민원을 낼 권리가 있습니다.</li>
+<li><strong>미국 주 법 (캘리포니아 등)</strong>: 어떤 정보를 모으는지 알 권리, 삭제ㆍ정정 권리, 맞춤 광고를 위한 개인정보 "판매ㆍ공유" 를 거부할 권리가 있습니다 (위 [개인정보 선택] 의 판매ㆍ공유 거부). 권리를 행사해도 차별하지 않습니다. 대리인을 통한 요청과 이의 절차는 연락처로 문의해 주세요 <code>[?] 전문가 확인</code>.</li>
+</ul>
+<h2>6. 보관 기간과 삭제</h2>
+<ul>
+<li>기기 안 정보: 앱을 삭제하거나 게임 안 [기타 → 설정 → 데이터 삭제] 를 누르면 바로 지워집니다.</li>
+<li>게임 서버의 계정 정보 (플레이어 번호, 진행 기록, 순위표): 계정 삭제를 요청할 때까지 보관하고, 요청을 받으면 30일 안에 지웁니다.</li>
+<li>결제 기록: 거래일부터 5년 (대한민국 전자상거래법) <code>[?] 전문가 확인</code>.</li>
+<li>부정 이용 기록: 기록한 날부터 90일 (반복ㆍ결제 위조는 제재가 끝날 때까지) <code>[?] 전문가 확인</code>.</li>
+<li>문의 이메일: 처리가 끝난 날부터 1년.</li>
+<li>광고 회사와 Google, Apple, Unity 가 따로 보관하는 정보는 각 회사의 정책을 따릅니다.</li>
+</ul>
+<h2>7. 계정 삭제</h2>
+<ul>
+<li><strong>앱 안</strong>: [기타 → 설정 → 데이터 삭제] (2단계 확인).</li>
+<li><strong>웹</strong>: 게임을 지운 뒤에도 계정 삭제 요청 페이지 (account-deletion) 에서 이메일로 요청할 수 있습니다.</li>
+</ul>
+<p>삭제하면 진행 기록과 구매한 아이템을 되살릴 수 없습니다. 법에 따라 보관해야 하는 결제 기록은 6절의 기간이 지난 뒤 지웁니다.</p>
+<h2>8. 아동</h2>
+<p>이 게임은 아동을 대상으로 하지 않습니다. 만 13세 미만 (대한민국은 만 14세 미만) 의 개인정보를 알면서 수집하지 않습니다. 유럽 경제 지역에서는 거주하는 나라의 동의 나이 (13~16세) 미만이면 법정대리인의 동의 없이 맞춤 광고와 플레이 분석에 동의할 수 없습니다 <code>[?] 전문가 확인</code>. 아동의 정보가 수집된 것을 알게 되면 바로 지웁니다.</p>
+<h2>9. 안전 조치</h2>
+<p>세이브 파일 암호화, 서버와의 암호화된 연결 (HTTPS), 최소한의 정보만 수집, 서버 관리 권한을 개발자 한 명으로 제한하는 것을 원칙으로 합니다.</p>
+<h2>10. 자동 수집 장치</h2>
+<p>앱은 웹 쿠키를 쓰지 않습니다. 광고ㆍ게임 서버 SDK 는 기기 안에 식별 값 (광고 ID, 플레이어 번호) 을 저장합니다. 거부 방법은 5절과 같습니다.</p>
+<h2>11. 방침의 변경</h2>
+<p>방침을 바꾸면 시행 7일 전 (이용자 권리에 중요한 변경은 30일 전) 에 게임 안과 이 페이지에 알립니다. 법에 따라 동의가 필요한 경우에는 먼저 동의를 받습니다.</p>
+<h2>12. 개인정보 보호책임자와 문의</h2>
+<ul>
+<li>개인정보 보호책임자: 스튜디오 쿼카</li>
+<li>이메일: studioquokka.support@gmail.com</li>
+<li>유럽 연합ㆍ영국 대리인: <code>[?] 전문가 확인</code> (지정 필요 여부)</li>
+</ul>
+<p>개인정보 침해에 대한 상담이나 신고는 아래 기관에도 할 수 있습니다.</p>
+<ul>
+<li>개인정보침해 신고센터 (한국인터넷진흥원): privacy.kisa.or.kr, 국번 없이 118</li>
+<li>개인정보 분쟁조정위원회: www.kopico.go.kr, 1833-6972</li>
+</ul>
+<h2>13. 언어</h2>
+<p>이 방침은 한국어로 작성되었으며 여러 언어로 번역해 제공합니다. 번역본과 한국어본의 내용이 다르면 한국어본이 우선합니다. 다만 거주하는 나라의 법이 이용자에게 더 유리한 보호를 정하면 그 법을 따릅니다 <code>[?] 전문가 확인</code>.</p>
+<p class="dim">출시 전 초안입니다. [?] 표시가 있는 문장은 법률 전문가의 확인을 기다리고 있습니다.</p>
+</section>
+<nav class="langs"><a href="../ko/privacy.html" aria-current="page">한국어</a><a href="../en/privacy.html">English</a><a href="../ja/privacy.html">日本語</a><a href="../zh-Hans/privacy.html">简体中文</a><a href="../zh-Hant/privacy.html">繁體中文</a><a href="../de/privacy.html">Deutsch</a><a href="../fr/privacy.html">Français</a><a href="../es-419/privacy.html">Español (Latinoamérica)</a><a href="../pt-BR/privacy.html">Português (Brasil)</a><a href="../ru/privacy.html">Русский</a></nav>
+</main>
+<footer class="bottom"><div class="wrap"><p><a href="../ko/privacy.html">개인정보처리방침</a><a href="../ko/terms.html">이용약관</a><a href="../ko/probability.html">확률 정보</a><a href="../ko/account-deletion.html">계정ㆍ데이터 삭제 요청</a><a href="../ko/contact.html">문의</a><a href="../languages.html">다른 언어</a></p><p>문의: <a href="mailto:studioquokka.support@gmail.com">studioquokka.support@gmail.com</a></p><p>&copy; 2026 Studio Quokka. 모든 권리 보유.</p></div></footer>
+</body>
+</html>
